@@ -4,8 +4,7 @@
 MACHINES = {
   :inetRouter => {
         :box_name => "generic/ubuntu2204",
-        :vm_name => "inetRouter",
-        #:public => {:ip => "10.10.10.1", :adapter => 1},
+        :vm_name => "inetRouter"
         :net => [
                     #ip, adpter, netmask, virtualbox__intnet
                     ["192.168.255.1", 2, "255.255.255.252",  "router-net"],
