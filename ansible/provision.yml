@@ -42,7 +42,7 @@
         name: nginx
         state: reloaded
 
-- name: Network conf
+- name: Network configure
   hosts: all
   become: yes
   tasks:
