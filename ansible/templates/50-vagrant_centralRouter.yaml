@@ -9,6 +9,9 @@ network:
       routes:
       - to: 0.0.0.0/0
         via: 192.168.255.1
-    eth3:
+    eth2:
       addresses:
       - 192.168.255.14/30
+    eth3:
+      addresses:
+      - 192.168.50.11/24
